@@ -1,0 +1,12 @@
+input.onButtonPressed(Button.A, function () {
+    music.ringTone(349)
+    music.rest(music.beat(BeatFraction.Sixteenth))
+})
+music.setVolume(100)
+music.setTempo(100)
+music.playTone(494, music.beat(BeatFraction.Whole))
+music.playTone(494, music.beat(BeatFraction.Whole))
+music.playTone(740, music.beat(BeatFraction.Half))
+music.playTone(554, music.beat(BeatFraction.Whole))
+music.playTone(622, music.beat(BeatFraction.Whole))
+music.rest(music.beat(BeatFraction.Eighth))
